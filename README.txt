@@ -27,3 +27,6 @@
     E : Interaction ( doors )
 
     R : Drink 86
+
+:G++ Command:
+g++ -Lsrc/lib -Isrc/include main.cpp -o main -lSDL2 -lSDL2_image -LSDL2_ttf
